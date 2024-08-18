@@ -12,6 +12,7 @@ https://www.linkedin.com/in/neilmcalister/
 * Bicep CLI - when the Azure CLI is installed run ```az bicep install``` from a command prompt
 * Login using ```az login```
 * Select your Azure Subscription with ```az account set --subscription "yourAzureSubscriptionName"``` command - verifiy with ```az account show```
+* The ```run.ps1``` files have been created and tested for ```PowerShell``` - any version on any platform should be OK
 
 ## A note on parameters
 I've not used parameter .JSON files to pass in here - everything is hardcoded in the .bicep files to keep things simple. If you don't like the names of things, you can change the names if you wish. The prefix of the Storage Accounts is currently set as ```sasandbox``` and the location ```uksouth```
